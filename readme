@@ -1,0 +1,9 @@
+Current project status: active, not yet ready for consumption.
+
+This is a semi-fork of jQueryUI with a number of components that I consider are missing from official releases. At present the aim is to include up-to-date versions of the following:
+
+Select-menu
+Textbox
+Checkbox
+
+This repo contains work built upon by other developers including the Filament Group and Felix Nagel.
