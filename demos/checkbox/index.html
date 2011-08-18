@@ -1,0 +1,39 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Custom checkboxes and radio buttons in jQuery demo</title>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<link type="text/css" href="../../themes/base/jquery.ui.all.css" rel="stylesheet" />
+	<link type="text/css" href="../../themes/base/jquery.ui.checkbox.css" rel="stylesheet" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="../../ui/jquery.ui.core.js"></script>
+	<script type="text/javascript" src="../../ui/jquery.ui.widget.js"></script>
+	<script type="text/javascript" src="../../ui/jquery.ui.checkbox.js"></script>
+	
+
+<script type="text/javascript">
+$(function() {
+	$("input").customInput();
+});
+</script>
+</head>
+
+<body>
+
+
+<form style="margin-left:30px">
+<input type="checkbox" id="chk1" checked><label for="chk1">Checkbox 1</label>
+<input type="checkbox" id="chk2"><label for="chk2">Checkbox 2</label>
+<input type="checkbox" id="chk3" disabled><label for="chk3">Checkbox 3 (I'm disabled)</label>
+<input type="checkbox" id="chk4"><label for="chk4">Checkbox 4</label>
+<input type="checkbox" id="chk5" disabled checked><label for="chk5">Checkbox 5 (I'm also disabled)</label>
+<input type="checkbox" id="chk6"><label for="chk6">Checkbox 6</label>
+</form>
+
+
+
+</body>
+</html>
