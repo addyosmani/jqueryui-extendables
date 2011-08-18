@@ -4,7 +4,13 @@ This is a semi-fork of jQueryUI with a number of components that I consider are 
 
 Select-menu (included)
 Checkbox (included)
-Textbox
+Textbox (under consideration - would need to be more than just CSS3 theming)
 Extended datepicker
 
 This repo contains work built upon by other developers including the Filament Group, Felix Nagel and Craig Oshima.
+
+Notes:
+
+I became aware of the formcontrols branch on jqueryui shortly after pushing stuff to this repo. It appears there is currently further work being done on selectmenu by scott gonzalez (https://github.com/jquery/jquery-ui/tree/selectmenu) and better form-control theming may be in the pipelines.
+
+As we have a need at AOL for a consistant set of themable components right now including the set I mention above, I'll be continuing to pursue this project for the time-being.
