@@ -5,5 +5,6 @@ This is a semi-fork of jQueryUI with a number of components that I consider are 
 Select-menu
 Textbox
 Checkbox
+Extended datepicker
 
 This repo contains work built upon by other developers including the Filament Group and Felix Nagel.
